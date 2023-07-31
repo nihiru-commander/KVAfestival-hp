@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ホームページ</title>
+  <style>
+    /* ボディ要素に対してスタイルを適用 */
+    body {
+      display: flex; /* フレックスボックスを使用してコンテンツを中央に配置 */
+      justify-content: center; /* 横方向（主軸）を中央に配置 */
+      align-items: center; /* 縦方向（クロス軸）を中央に配置 */
+      height: 100vh; /* ビューポートの高さいっぱいにコンテンツを表示 */
+      margin: 0; /* 余白をなくす */
+      background-color: #f2f2f2; /* 背景色を設定 */
+    }
+
+    /* ボタンコンテナのスタイル */
+    .button-container {
+      display: flex;
+      flex-direction: column; /* 上下に配置 */
+      align-items: center; /* 横方向を中央に配置 */
+    }
+
+    /* ボタンのスタイル */
+    .button {
+      font-size: 20px;
+      padding: 10px 20px;
+      margin: 10px;
+      background-color: #4285F4; /* グーグルロゴのカラーコード */
+      color: #ffffff; /* 文字色を白に */
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* 影を追加 */
+      transition: background-color 0.3s ease; /* ホバー時のアニメーションを追加 */
+    }
+
+    .button:hover {
+      background-color: #3b7fc4; /* ホバー時の背景色 */
+    }
+  </style>
+</head>
+<body>
+  <!-- ボタンを上下に配置して表示 -->
+  <div class="button-container">
+    <a href="https://kva.craft-student.org/kva/2022kokuti/" class="button">2022年第31回KVA祭HPはこちら</a>
+    <a href="https://kva.craft-student.org/kva/2023kokuti/" class="button">2023年第32回KVA祭HPはこちら</a>
+  </div>
+</body>
+</html>
