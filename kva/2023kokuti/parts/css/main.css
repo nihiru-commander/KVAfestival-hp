@@ -1,0 +1,26 @@
+/* Style Reset */
+* {margin: 0px;padding: 0px;}
+
+/* smooth scroll */
+html {scroll-behavior: smooth;}
+body {/*background-color: #d3efff;*/}
+
+.foggy-image {
+  position: relative;width: 100%;height: 100%;
+  background: url('/2023kokuti/parts/img/siteheader.png') no-repeat center center / 100% auto;
+  background-attachment: fixed; /* 画像を固定する */
+}
+
+/* ここから霧効果のCSSを追加 */
+.foggy-image::before {
+    content: "";position: absolute;top: 0;left: 0;width: 100%;height: 100%;
+    background-color: rgba(255, 255, 255, 0.3); /* 半透明の白色で霧の効果を作成 */
+    z-index: 1; /* 画像より手前に表示するための設定 */
+}
+
+/*霧がけ*/
+.fog{
+  background-color: rgba(255, 255, 255, 0.8);/* 半透明の白色で霧の効果を作成 */
+}
+
+.align-left p {margin: 20px 0;text-align: left;}
