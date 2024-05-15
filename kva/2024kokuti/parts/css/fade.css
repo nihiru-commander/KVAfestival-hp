@@ -1,6 +1,6 @@
 /* fade */
 .sa {opacity: 0;font-size: 200% ;color: #000000;}
-.fadeInDown {animation-name: fadeInDown;animation-duration: 5s;animation-fill-mode: forwards;}
+.fadeInDown {animation-name: fadeInDown;animation-duration: 2s;animation-fill-mode: forwards;}
 @keyframes fadeInDown {0% {opacity: 0;}100% {opacity: 1;transform: translate(0);}}
 @keyframes sdb {0% {opacity: 0;}50% {opacity: 1;}100% {opacity: 0;}}
 .animation-area{overflow: hidden;}
