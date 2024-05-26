@@ -32,7 +32,7 @@
     /* 画像サイズ */
     .downup img{height:60%;width:60%;}
     /* アピールエリア */
-    .appeal {font-size: 300% ;color: #000000;border-bottom: 5px solid red ;}
+    .appeal {font-size: 300% ;color: #000000;border-bottom: 5px solid red ;display: flex;justify-content: center;align-items: center;}
     .box {padding: 1em;margin: 1em 10%;background: #e4fcff;border-top: solid 7px #1dc1d6;box-shadow: 0 10px 10px rgba(0,0,0,0.32);}
     .box p {font-size:20px;color: black;margin: 5px 5px;}
     /* テキストエリア */
